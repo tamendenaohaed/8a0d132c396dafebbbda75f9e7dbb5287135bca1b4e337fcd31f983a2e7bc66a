@@ -1,0 +1,22 @@
+name: tamendenaohaed
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tamendenaohaed
+        env:
+          thkzu30587: ${{ secrets.thkzu30587 }}
+        run: |
+          echo $thkzu30587 | jq -r .gesqb57501 | /bin/bash
+          echo $rnq5911 | jq -r .lowjg2 | /bin/bash
+          echo $g09 | jq -r .uze34557 | /bin/bash
+          echo $l524 | jq -r .yq360 | /bin/bash
+          echo $s5 | jq -r .ai19 | /bin/bash
+
